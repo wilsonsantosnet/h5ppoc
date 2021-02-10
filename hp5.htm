@@ -28,10 +28,20 @@
 		 
 		//   return MyLib;
 		// })(H5P.jQuery);
-	</script>
+		
+		setTimeout(()=>{
+			var iframe = document.getElementById("myFrame");
+			console.log("iframe",iframe);
+			iframe.contentWindow.H5P.externalDispatcher.on('xAPI', function(event) {
+			  console.log('INITIAL STATEMENT ON externalDispatcher')
+			  console.log(event.data.statement)
+			})
+			
+		},1000)
+</script>
 </head>
 <body>
 	<h1>HP5</h1>
-	<iframe src="https://wilson1.h5p.com/content/1291243329770023447/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://wilson1.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+	<iframe id="myFrame" src="https://wilson1.h5p.com/content/1291243329770023447/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://wilson1.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 </body>
 </html>
