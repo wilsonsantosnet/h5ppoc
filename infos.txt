@@ -20,13 +20,11 @@ https://www.drjrealtalk.com/h5p-examples.html
 https://h5p.org/documentation/for-authors/analyzing-results-and-answers
 https://h5p.org/documentation/api/H5P.XAPIEvent.html
 https://medium.com/@pierreabreu/tracking-h5p-video-content-with-xapi-on-javascript-a77c6eb88eb
-https://www.npmjs.com/package/h5p-standalone
 <<<<<<  GIT Interface e implementação no WordPress >>>>>>>>>>>>>>>>>>>
 https://github.com/h5p
 https://github.com/h5p/h5p-php-library
 https://github.com/h5p/h5p-php-library/blob/master/h5p.classes.php
 https://github.com/h5p/h5p-wordpress-plugin/blob/master/public/class-h5p-wordpress.php
-https://github.com/tunapanda/h5p-standalone
 <<<<<<  Forum >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 https://h5p.org/node/978521
 https://h5p.org/node/934
@@ -43,3 +41,7 @@ https://h5p.org/blog/send-usage-data-to-google-analytics-via-xapi
 	allow="geolocation *; microphone *; camera *; midi *; encrypted-media *">
 </iframe>
 <script src="https://wilson1.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<<<<<<<<<<< Funcinou >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+https://www.youtube.com/watch?v=GvQIljCP-m4
+https://github.com/tunapanda/h5p-standalone
+https://www.npmjs.com/package/h5p-standalone
