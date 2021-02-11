@@ -1,0 +1,45 @@
+h5p
+<<<<<< KickOff >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+https://targetsoftwarecombr-my.sharepoint.com/:p:/g/personal/bruno_seco_targetsoftware_com_br/EaWLUhgEPiBMmDPyln2h_9IBscXWXcGR6_U32KvP_zBSBA?rtime=UiiEjxrN2Eg
+<<<<<< Documentations >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+https://h5p.org/
+https://wilson1.h5p.com/ (wilsonsantosnet@gmail.com / P0$e!d0n5)
+<<<<<<< Advice on how to create a platform integration >>>>>>>>>>>>>
+H5P plugins are so far only created for php based publishing platforms. H5P has been designed to be easy to implement on new platforms. As much as possible of the code is javascript, and the PHP part of the code has been divided into platform agnostic PHP libraries and platform specific interfaces.
+The H5P PHP library is responsible for handling imports and exports of .h5p files, displaying H5P content, updating H5P content and providing the API that H5P provides for the H5P libraries. This library has an interface called H5PFrameworkInterface that platform integrations must implement.
+The H5P Editor PHP library holds all H5P editor code and provides the javascript APIs for custom editor widgets. This library has an interface called H5peditorStorage that platform integrations must implement.
+The APIs provided by these two libraries has not been documented yet. We're planning to simplify the a lot. Many organizations have still already started implementing H5P plugins for their custom publishing platforms an do this by looking at the existing implementations for Wordpress and Drupal.
+<<<<<<  Learning Tools Interoperability >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+LTI is an abbreviation for Learning Tools Interoperability, which is a standard protocol developed by the IMS Global Learning Consortium. It allows services like VoiceThread to integrate with your Learning Management System (LMS) as single-sign-on tools. ... Sign into your LMS.
+<<<<<<  LINKS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+https://www.w3schools.com/tags/tag_iframe.asp
+https://www.youtube.com/watch?v=-1-_kWSv80g
+https://h5p.org/technical-overview
+https://h5p.org/creating-your-own-h5p-plugin
+https://www.drjrealtalk.com/h5p-examples.html
+https://h5p.org/documentation/for-authors/analyzing-results-and-answers
+https://h5p.org/documentation/api/H5P.XAPIEvent.html
+https://medium.com/@pierreabreu/tracking-h5p-video-content-with-xapi-on-javascript-a77c6eb88eb
+https://www.npmjs.com/package/h5p-standalone
+<<<<<<  GIT Interface e implementação no WordPress >>>>>>>>>>>>>>>>>>>
+https://github.com/h5p
+https://github.com/h5p/h5p-php-library
+https://github.com/h5p/h5p-php-library/blob/master/h5p.classes.php
+https://github.com/h5p/h5p-wordpress-plugin/blob/master/public/class-h5p-wordpress.php
+https://github.com/tunapanda/h5p-standalone
+<<<<<<  Forum >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+https://h5p.org/node/978521
+https://h5p.org/node/934
+https://h5p.org/comment/39902
+>>>>>>>>  X-Api >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+http://h5p.org/x-api
+https://h5p.org/blog/send-usage-data-to-google-analytics-via-xapi
+<<<<<<  SAMPLE 1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<iframe 
+	src="https://wilson1.h5p.com/content/1291243329770023447/embed" 
+	width="1088" height="637" 
+	frameborder="0" 
+	allowfullscreen="allowfullscreen" 
+	allow="geolocation *; microphone *; camera *; midi *; encrypted-media *">
+</iframe>
+<script src="https://wilson1.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
